@@ -1,6 +1,8 @@
 html * {
   font-family: 'Montserrat', sans-serif;
+
 }
+
 .container::-webkit-scrollbar{
     width: 9px;
 }
@@ -8,6 +10,7 @@ html * {
     background-color: black;
     border-radius: 15px;
 }
+
 .container::-webkit-scrollbar-thumb{
     background-color: antiquewhite;
     border-radius: 15px;
@@ -17,6 +20,7 @@ body{
   font-family: 'Montserrat', sans-serif;
     background-size: 100%;
     background-repeat: no-repeat;
+    
 }
 *{
 margin: 0;
@@ -30,10 +34,13 @@ font-weight:lighter;
 top: 32px;
 margin-left: 5%;
 margin-right: 5%;
+
 }
+
 .headerm{
     background-color: rgb(0, 35, 66);
     color: rgb(245, 250, 255);
+
 }
 .kujtime{
    
@@ -52,7 +59,7 @@ margin-right: 5%;
     border-radius: 50px;
     background-image: linear-gradient(180deg,#7c8aff,#002647);
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
-    transition: all .2s ease-out;
+    transition: all 0.4s ease-out;
 }
 .kujtime:hover{
   
@@ -75,7 +82,7 @@ margin-right: 5%;
 .arrow{
     position: absolute;
     left: 44%;
-    top: 60%;
+    top: 58%;
     width: 10%;
 }
 
@@ -83,7 +90,17 @@ margin-right: 5%;
 .site-footer
 {
     position: absolute;
-    top: 190%;
+    top: 375%;
+  background-color:rgb(0, 35, 66);
+  padding: 45px 30px 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#ffffff;
+}
+.site-footer-2
+{
+    position: absolute;
+    top: 180%;
   background-color:rgb(0, 35, 66);
   padding: 45px 30px 20px;
   font-size:15px;
@@ -91,6 +108,11 @@ margin-right: 5%;
   color:#ffffff;
 }
 .site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer-2 hr
 {
   border-top-color:#bbb;
   opacity:0.5
@@ -109,7 +131,7 @@ margin-right: 5%;
 }
 .site-footer a
 {
-  color:#0a0a0a;
+  color:#3366cc
 }
 .site-footer a:hover
 {
@@ -257,7 +279,7 @@ ol { padding-left: 50px; }
 li { 
   color: #4F4F4F; 
   padding-left: 16px;
-  margin-top: 35px;
+  margin-top: 40px;
   position: relative;
   font-size: 16px;
   line-height: 20px;
@@ -279,4 +301,30 @@ strong { color: #292929; }
 ol.alternating-colors { 
   li:nth-child(odd):before { border-color: #0BAD02; }
   li:nth-child(even):before { border-color: #2378D5; }
+}
+
+.abetare{
+  position: absolute;
+  top: 115%;
+  margin-left: 4%;
+  width: 45%;
+}
+
+.kuqezi{
+  position: absolute;
+  top: 165%;
+  right: 4%;
+  width: 45%;
+}
+.kabinet{
+  position: absolute;
+  top: 220%;
+  margin-left: 4%;
+  width: 45%;
+}
+.prishtin{
+  position: absolute;
+  top: 275%;
+  right: 4%;
+  width: 45%;
 }
